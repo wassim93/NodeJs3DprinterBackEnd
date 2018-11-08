@@ -1,0 +1,9 @@
+cyber_sec_article:
+    resource: "@CyberSecArticleBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    methods: [GET,PUT,POST,DELETE] 
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
